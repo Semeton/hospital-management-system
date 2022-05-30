@@ -114,4 +114,22 @@ class AdminController extends Controller
         ->with('message', 'Doctor updated successfully');
 
     }
+
+    public function emailview($id)
+    {
+        $data = Appointment::find($id);
+        return view('admin.email_view', compact('data'));
+    }
+
+    public function sendemail(Request $request,$id)
+    {
+        $data = Appointment::find($id);
+        $details = [
+            'greeting' => $request->greeting,
+            'body' => $request->body,
+            'actiontext' => $request->actiontext,
+            'actionurl' => $request->actionurl,
+            'closing' => $request->closing,
+        ];
+    }
 }

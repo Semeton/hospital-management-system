@@ -65,6 +65,8 @@
                             <span><a class="btn btn-danger text-center"
                                     onclick="return confirm('Are you sure you want to cancel this appointment')"
                                     href="{{url('canceled', $appointment->id)}}">x</a></span>
+                            <span><a class="btn btn-primary text-center"
+                                    href="{{url('emailview', $appointment->id)}}">Mail</a></span>
                         </td>
                     </tr>
                     @endforeach
