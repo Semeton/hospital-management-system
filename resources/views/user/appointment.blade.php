@@ -32,7 +32,8 @@
                 </div>
             </div>
 
-            <button type="submit" class="btn btn-primary mt-3 wow zoomIn">Submit Request</button>
+            <button type="submit" style="background: #2AD9A4 !important" class="btn btn-primary mt-3 wow zoomIn">Submit
+                Request</button>
         </form>
     </div>
 </div> <!-- .page-section -->
