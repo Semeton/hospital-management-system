@@ -5,7 +5,7 @@ This is an Hospistal Management System. It has two sections; a user section and 
 On the user section, users can:
 - create an account
 - (anyone who visits can) book an appointment with their doctor of choice (depending on the speciality)
-- (only registered users however, can) view and management their appointments (they can cancel any appointment if they wish to do so)
+- (only registered users however, can) view and manage their appointments (they can cancel any appointment if they wish to do so)
 - once an appointment is made, users will wait for approval from the hospital admin. They will be notified via email once approved. Approval can also be viewed from the 'my appoitments' section available for registered users only.
 - registration includes an email-verification method implemented with laravel jetstream. 
 - in the case of a forgotten password, users can request for password reset using their registered email.
