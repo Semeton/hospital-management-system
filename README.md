@@ -1,5 +1,27 @@
+ABOUT THE APP
 
+This is an Hospistal Management System. It has two sections; a user section and an admin section. 
 
+On the user section, users can:
+- create an account
+- (anyone who visits can) book an appointment with their doctor of choice (depending on the speciality)
+- (only registered users however, can) view and management their appointments (they can cancel any appointment if they wish to do so)
+- once an appointment is made, users will wait for approval from the hospital admin. They will be notified via email once approved. Approval can also be viewed from the 'my appoitments' section available for registered users only.
+- registration includes an email-verification method implemented with laravel jetstream. 
+- in the case of a forgotten password, users can request for password reset using their registered email.
+- the default role upon registration is 'user'
+
+On the Admin section; an admin can:
+- add and managent doctors including adding and updating their images as the case may be
+- on adding, a name, room number, speciality (a dropdown option) and image is provided. The same is the case for updating the doctor's information
+- view and manage appointments; by either approving or canceling a user's appointment. A follow up email can be sent to any specific user once his/her appointment has been approved or otherwise
+- Note that a registered user can see wether his/her appointment is pending, approved or canceled from the 'view appointments' section available to only registered users.
+- registration and loggin in remains the same as for users. Except that if the user is an admin, he/she is redirect to the admin dashboard and never the hospital home page.
+
+Homepage Template - One-Hospital Template
+Admin Dashboard - Corona
+
+Thanks for reading. New suggestions are very much welcome!
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
